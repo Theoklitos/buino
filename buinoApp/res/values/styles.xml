@@ -1,0 +1,5 @@
+<resources>
+
+    <style name="BuinoTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+
+</resources>

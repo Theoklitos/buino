@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"    
+    android:padding="10dip"    
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/statusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/red_lamp"
+        tools:ignore="ContentDescription" >
+    </ImageView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"        
+        android:layout_width="wrap_content"        
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"        
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+       
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="integration tests"            
+            android:textSize="15dp" 
+            tools:ignore="HardcodedText" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/lastUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"            
+            android:textStyle="italic"
+            android:text="Last updated at: monday 10 april"
+            android:textSize="10dp"
+            tools:ignore="HardcodedText" >
+        </TextView>
+        
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/notifyCheckbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="13dp"
+        android:focusable="false"
+		android:focusableInTouchMode="false"
+        android:text="@string/subscribe_checkbox_label" >
+    </CheckBox>
+
+</LinearLayout>

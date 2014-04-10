@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Buino</string>
+	
+    <!-- Menu -->
+    <string name="menu_settings">Settings</string>
+	<string name="menu_update">Update</string>
+	<string name="menu_signout">Sign Out</string>
+        
+    <!-- Welcome Page -->
+    <string name="welcome_activity_label">Welcome to the Build Notificator</string>
+    <string name="welcome_username_label">Username:</string>
+    <string name="welcome_password_label">Password:</string>
+    <string name="welcome_notAMember_label">Not a member? Register here!</string>
+    <string name="login_button_label">Log In</string>    
+    <string name="remember_checkbox_label">Remember me</string>
+    <string name="welcome_anonymous_label">Too lazy? Connect immediately.</string>
+    <string name="anonymous_button_label">Anonymous Log In</string>
+    
+    <!-- Register Page -->
+    <string name="register_activity_label">Register new buino user</string>
+    <string name="register_button_label">Register</string>
+    <string name="email_label">Email(optional):</string>
+    
+    <!-- Main Page -->
+    <string name="main_activity_label">Available Build List</string>
+    <string name="refresh_button_label">Update</string>    
+	<string name="logout_button_label">Logout</string>   
+	<string name="subscribe_checkbox_label">Subscribe</string>
+	
+	<!-- Context Menu -->
+	<string name="should_play_sound">Play Audio Warnings</string>	
+	
+	<!-- Build Info Page -->
+	<string name="build_name_label">Name:</string>
+	<string name="build_number_label">Number:</string>
+    <string name="build_status_label">Status:</string>
+    <string name="build_author_label">Last Author:</string>
+    <string name="build_go_to_url_label">Go to this build\'s page (jenkins)</string>    
+    <string name="build_update_button_label">Update Build Status</string>
+    
+</resources>
