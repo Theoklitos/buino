@@ -14,9 +14,9 @@ App
 ---
 Once your java server is running, the app will automatically receive push notifications via the afforementioned [Parse]https://parse.com/ service. Creating a new user is optional. Some screenshots:
 
-![Screenshot1](http://wp.me/a1KcBm-o)
+![Screenshot1](http://beerdeveloper.files.wordpress.com/2014/04/buino-ss1.png?w=253)
 
-![Screenshot2](http://beerdeveloper.files.wordpress.com/2014/04/buino-ss2.png)
+![Screenshot2](http://beerdeveloper.files.wordpress.com/2014/04/buino-ss2.png?w=253)
 
-![Screenshot3](http://beerdeveloper.files.wordpress.com/2014/04/buino-ss3.png)
+![Screenshot3](http://beerdeveloper.files.wordpress.com/2014/04/buino-ss3.png?w=253)
 
